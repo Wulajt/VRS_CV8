@@ -163,6 +163,238 @@ void setZero(void)
 	LL_GPIO_ResetOutputPin(SEGMENTB_PORT, SEGMENTB_PIN);
 }
 
+void setA(void)
+{
+	// A,B,C,E,F,G
+	LL_GPIO_ResetOutputPin(SEGMENTF_PORT, SEGMENTF_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTC_PORT, SEGMENTC_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTA_PORT, SEGMENTA_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTE_PORT, SEGMENTE_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTB_PORT, SEGMENTB_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTG_PORT, SEGMENTG_PIN);
+}
+
+void setB(void)
+{
+	// C,D,E,F,G
+	LL_GPIO_ResetOutputPin(SEGMENTC_PORT, SEGMENTC_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTD_PORT, SEGMENTD_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTE_PORT, SEGMENTE_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTF_PORT, SEGMENTF_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTG_PORT, SEGMENTG_PIN);
+}
+
+void setC(void)
+{
+	// A,D,E,F
+	LL_GPIO_ResetOutputPin(SEGMENTA_PORT, SEGMENTA_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTD_PORT, SEGMENTD_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTE_PORT, SEGMENTE_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTF_PORT, SEGMENTF_PIN);
+}
+
+void setD(void)
+{
+	// B,C,D,E,G
+	LL_GPIO_ResetOutputPin(SEGMENTB_PORT, SEGMENTB_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTC_PORT, SEGMENTC_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTD_PORT, SEGMENTD_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTE_PORT, SEGMENTE_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTG_PORT, SEGMENTG_PIN);
+}
+
+void setE(void)
+{
+	// A,D,E,F,G
+	LL_GPIO_ResetOutputPin(SEGMENTA_PORT, SEGMENTA_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTD_PORT, SEGMENTD_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTE_PORT, SEGMENTE_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTF_PORT, SEGMENTF_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTG_PORT, SEGMENTG_PIN);
+}
+
+void setF(void)
+{
+	// A,E,F,G
+	LL_GPIO_ResetOutputPin(SEGMENTA_PORT, SEGMENTA_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTE_PORT, SEGMENTE_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTF_PORT, SEGMENTF_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTG_PORT, SEGMENTG_PIN);
+}
+
+void setG(void)
+{
+	// A,C,D,E,F
+	LL_GPIO_ResetOutputPin(SEGMENTA_PORT, SEGMENTA_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTC_PORT, SEGMENTC_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTD_PORT, SEGMENTD_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTE_PORT, SEGMENTE_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTF_PORT, SEGMENTF_PIN);
+}
+
+void setH(void)
+{
+	// B,C,E,F,G
+	LL_GPIO_ResetOutputPin(SEGMENTB_PORT, SEGMENTB_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTC_PORT, SEGMENTC_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTE_PORT, SEGMENTE_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTF_PORT, SEGMENTF_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTG_PORT, SEGMENTG_PIN);
+
+}
+
+void setI(void){
+	// E,F
+	LL_GPIO_ResetOutputPin(SEGMENTE_PORT, SEGMENTE_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTF_PORT, SEGMENTF_PIN);
+}
+
+void setJ(void){
+	// B,C,D,E
+	LL_GPIO_ResetOutputPin(SEGMENTB_PORT, SEGMENTB_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTC_PORT, SEGMENTC_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTD_PORT, SEGMENTD_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTE_PORT, SEGMENTE_PIN);
+}
+
+void setL(void){
+	// D,E,F
+	LL_GPIO_ResetOutputPin(SEGMENTD_PORT, SEGMENTD_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTE_PORT, SEGMENTE_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTF_PORT, SEGMENTF_PIN);
+}
+
+void setN(void){
+	// C,E,G
+	LL_GPIO_ResetOutputPin(SEGMENTC_PORT, SEGMENTC_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTE_PORT, SEGMENTE_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTG_PORT, SEGMENTG_PIN);
+}
+
+void setO(void){
+	// A,B,C,D,E,F
+	LL_GPIO_ResetOutputPin(SEGMENTA_PORT, SEGMENTA_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTB_PORT, SEGMENTB_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTC_PORT, SEGMENTC_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTD_PORT, SEGMENTD_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTE_PORT, SEGMENTE_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTF_PORT, SEGMENTF_PIN);
+}
+
+void setP(void){
+	// A,B,E,F,G
+	LL_GPIO_ResetOutputPin(SEGMENTA_PORT, SEGMENTA_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTB_PORT, SEGMENTB_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTE_PORT, SEGMENTE_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTF_PORT, SEGMENTF_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTG_PORT, SEGMENTG_PIN);
+}
+
+void setQ(void){
+	// A,B,C,F,G
+	LL_GPIO_ResetOutputPin(SEGMENTA_PORT, SEGMENTA_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTB_PORT, SEGMENTB_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTC_PORT, SEGMENTC_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTF_PORT, SEGMENTF_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTG_PORT, SEGMENTG_PIN);
+}
+
+void setR(void){
+	// E,G
+	LL_GPIO_ResetOutputPin(SEGMENTE_PORT, SEGMENTE_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTG_PORT, SEGMENTG_PIN);
+}
+
+void setS(void){
+	// A,C,D,F,G
+	LL_GPIO_ResetOutputPin(SEGMENTA_PORT, SEGMENTA_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTC_PORT, SEGMENTC_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTD_PORT, SEGMENTD_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTF_PORT, SEGMENTF_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTG_PORT, SEGMENTG_PIN);
+}
+
+void setT(void){
+	// D,E,F,G
+	LL_GPIO_ResetOutputPin(SEGMENTD_PORT, SEGMENTD_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTE_PORT, SEGMENTE_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTF_PORT, SEGMENTF_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTG_PORT, SEGMENTG_PIN);
+}
+
+void setU(void){
+	// B,C,D,E,F
+	LL_GPIO_ResetOutputPin(SEGMENTB_PORT, SEGMENTB_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTC_PORT, SEGMENTC_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTD_PORT, SEGMENTD_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTE_PORT, SEGMENTE_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTF_PORT, SEGMENTF_PIN);
+}
+
+void setY(void){
+	// B,C,D,F,G
+	LL_GPIO_ResetOutputPin(SEGMENTB_PORT, SEGMENTB_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTC_PORT, SEGMENTC_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTD_PORT, SEGMENTD_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTF_PORT, SEGMENTF_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTG_PORT, SEGMENTG_PIN);
+}
+
+void setK(void){
+	// B,C,G
+	LL_GPIO_ResetOutputPin(SEGMENTB_PORT, SEGMENTB_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTC_PORT, SEGMENTC_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTG_PORT, SEGMENTG_PIN);
+}
+
+void setM(void){
+	// A,C,E
+	LL_GPIO_ResetOutputPin(SEGMENTA_PORT, SEGMENTA_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTC_PORT, SEGMENTC_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTE_PORT, SEGMENTE_PIN);
+}
+
+void setV(void){
+	// B,D,F
+	LL_GPIO_ResetOutputPin(SEGMENTB_PORT, SEGMENTB_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTD_PORT, SEGMENTD_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTF_PORT, SEGMENTF_PIN);
+}
+
+void setW(void)
+{
+	// B,C,D,E,F,G
+	LL_GPIO_ResetOutputPin(SEGMENTF_PORT, SEGMENTF_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTD_PORT, SEGMENTD_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTG_PORT, SEGMENTG_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTC_PORT, SEGMENTC_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTE_PORT, SEGMENTE_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTB_PORT, SEGMENTB_PIN);
+}
+
+void setX(void)
+{
+	// A,D,G
+	LL_GPIO_ResetOutputPin(SEGMENTA_PORT, SEGMENTA_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTD_PORT, SEGMENTD_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTG_PORT, SEGMENTG_PIN);
+}
+
+void setZ(void)
+{
+	// B,E,G
+	LL_GPIO_ResetOutputPin(SEGMENTE_PORT, SEGMENTE_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTB_PORT, SEGMENTB_PIN);
+	LL_GPIO_ResetOutputPin(SEGMENTG_PORT, SEGMENTG_PIN);
+}
+
+void set_(void)
+{
+	// D
+	LL_GPIO_ResetOutputPin(SEGMENTD_PORT, SEGMENTD_PIN);
+}
+
+
 /**
  * Pre-process number before it is displayed. Extract digits of the number
  */
@@ -249,6 +481,18 @@ void displayNumber(double num)
 	}
 }
 
+void displayString(uint8_t str[4]){
+    dDisplayData.digit_num = 4;
+    dDisplayData.negative = 0;
+    dDisplayData.resolution = 0;
+
+    int j = 0;
+    for (int i = 3; i>=0; i--){
+        dDisplayData.digit[i] = str[j];
+        j++;
+    }
+}
+
 /*
  * Turns required digit ON
  */
@@ -281,46 +525,157 @@ void updateDisplay(void)
 	{
 		switch(dDisplayData.digit[i])
 		{
-			case 0:
+			case 48:
 			  setDigit(i);
 			  setZero();
 			  break;
-			case 1:
+			case 49:
 			  setDigit(i);
 			  setOne();
 			  break;
-			case 2:
+			case 50:
 			  setDigit(i);
 			  setTwo();
 			  break;
-			case 3:
+			case 51:
 			  setDigit(i);
 			  setThree();
 			  break;
-			case 4:
+			case 52:
 			  setDigit(i);
 			  setFour();
 			  break;
-			case 5:
+			case 53:
 			  setDigit(i);
 			  setFive();
 			  break;
-			case 6:
+			case 54:
 			  setDigit(i);
 			  setSix();
 			  break;
-			case 7:
+			case 55:
 			  setDigit(i);
 			  setSeven();
 			  break;
-			case 8:
+			case 56:
 			  setDigit(i);
 			  setEight();
 			  break;
-			case 9:
+			case 57:
 			  setDigit(i);
 			  setNine();
 			  break;
+
+			// Letters - ASCII code of small letter
+
+			case 97:
+			  setDigit(i);
+			  setA();
+			  break;
+			case 98:
+			  setDigit(i);
+		      setB();
+		      break;
+			case 99:
+			  setDigit(i);
+			  setC();
+			  break;
+			case 100:
+			  setDigit(i);
+			  setD();
+		      break;
+			case 101:
+			  setDigit(i);
+		      setE();
+		      break;
+			case 102:
+			  setDigit(i);
+			  setF();
+			  break;
+			case 103:
+			  setDigit(i);
+			  setG();
+			  break;
+			case 104:
+			  setDigit(i);
+			  setH();
+			  break;
+			case 105:
+			  setDigit(i);
+			  setI();
+			  break;
+			case 106:
+			  setDigit(i);
+			  setJ();
+			  break;
+			case 107:
+			  setDigit(i);
+			  setK();
+			  break;
+			case 108:
+			  setDigit(i);
+			  setL();
+			  break;
+			case 109:
+			  setDigit(i);
+			  setM();
+			  break;
+			case 110:
+			  setDigit(i);
+			  setN();
+			  break;
+			case 111:
+			  setDigit(i);
+			  setO();
+			  break;
+			case 112:
+			  setDigit(i);
+			  setP();
+			  break;
+			case 113:
+    		  setDigit(i);
+    		  setQ();
+    		  break;
+			case 114:
+			  setDigit(i);
+			  setR();
+			  break;
+			case 115:
+			  setDigit(i);
+			  setS();
+			  break;
+			case 116:
+			  setDigit(i);
+			  setT();
+			  break;
+			case 117:
+     		  setDigit(i);
+     		  setU();
+     		  break;
+			case 118:
+			  setDigit(i);
+			  setV();
+			  break;
+			case 119:
+			  setDigit(i);
+			  setW();
+			  break;
+			case 120:
+			  setDigit(i);
+			  setX();
+			  break;
+			case 121:
+			  setDigit(i);
+			  setY();
+			  break;
+			case 122:
+			  setDigit(i);
+			  setZ();
+			  break;
+			case 95:
+    		  setDigit(i);
+    		  set_();
+    		  break;
 		}
 
 		if(dDisplayData.resolution == i)

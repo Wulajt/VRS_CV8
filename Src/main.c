@@ -53,21 +53,39 @@ int main(void)
 
   MX_TIM3_Init();
 
+  uint8_t text[21] = "branislav_kutas_98344";
+  uint8_t txtIndex = 0;
+  uint8_t cycleRight = 1;
+
   while (1)
   {
-	  if(disp_time > (saved_time + 100))
-	  {
-		  displayNumber(num_to_display);
-	  	  num_to_display -= 0.10;
-	  	  saved_time = disp_time;
+       if(disp_time > (saved_time + 500))
+       {
+           uint8_t toDisplay[4] = "";
 
-	  	  if(num_to_display <= 0)
-	  	  {
-	  		  num_to_display = 100;
-	  	  }
-	  }
+           if (txtIndex >= 17){
+               cycleRight = 0;
+           }
+           else if (txtIndex <= 0){
+               cycleRight = 1;
+           }
+
+           for (int i = 0; i<4; i++){
+               toDisplay[i] = text[i + txtIndex];
+           }
+
+           if (cycleRight){
+               txtIndex++;
+           }
+           else {
+               txtIndex--;
+           }
+
+           displayString(toDisplay);
+
+           saved_time = disp_time;
+       }
   }
-
 }
 
 /**
